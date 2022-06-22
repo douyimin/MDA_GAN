@@ -14,7 +14,7 @@ Get test data: https://drive.google.com/drive/folders/11oZC1uwdpCui1tVbAgjwMlNQY
 
 
 # Results
-<div align=center><img src="https://github.com/douyimin/MDA_GAN/blob/main/results/output.jpg" width="805" height="517" alt="Results"/><br/></div>
+<div align=center><img src="https://github.com/douyimin/MDA_GAN/blob/main/results/output.jpg" width="850" height="550" alt="Results"/><br/></div>
 
 # Cite us
    
