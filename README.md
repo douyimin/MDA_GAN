@@ -19,8 +19,8 @@ Get test data: https://drive.google.com/drive/folders/11oZC1uwdpCui1tVbAgjwMlNQY
 # Cite us
    
      Dou, Yimin, et al. 
-     "Efficient Training of 3D Seismic Image Fault Segmentation Network under Sparse Labels by Weakening Anomaly Annotation."
-     arXiv preprint arXiv:2110.05319 (2021).
+     "MDA GAN: Adversarial-Learning-based 3-D Seismic Data Interpolation and Reconstruction for Complex Missing."
+     arXiv preprint arXiv:2204.03197 (2022).
 
 # Contact us
 emindou3015@gmail.com
