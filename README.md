@@ -5,7 +5,7 @@ The interpolation and reconstruction of missing traces is a crucial step in seis
 # Quick start
 pytorch>=1.10.0
 
-Get test data and network pretrain: https://drive.google.com/drive/folders/11oZC1uwdpCui1tVbAgjwMlNQYSLpozmW?usp=sharing
+Get network pretrain and test data: https://drive.google.com/drive/folders/11oZC1uwdpCui1tVbAgjwMlNQYSLpozmW?usp=sharing
     
     conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
     cp ./download/Parihaka_part.npy  ./MDA_GAN/data/
