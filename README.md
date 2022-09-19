@@ -8,9 +8,9 @@ pytorch>=1.10.0
 Get network pretrain and test data: https://drive.google.com/drive/folders/11oZC1uwdpCui1tVbAgjwMlNQYSLpozmW?usp=sharing
     
     conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
-    cp ./download/Parihaka_part.npy  ./MDA_GAN/data/
-    cp ./download/kerry_part.npy ./MDA_GAN/data/
+    cp -r ./download/MDA_test_data/*  ./MDA_GAN/data/
     cp ./download/MDA_GAN.pt ./MDA_GAN/network
+    run 01-05 prediction jupyter
 
 
 # Results
