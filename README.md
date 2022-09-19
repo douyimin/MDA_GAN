@@ -12,10 +12,6 @@ Get network pretrain and test data: https://drive.google.com/drive/folders/11oZC
     cp ./download/MDA_GAN.pt ./MDA_GAN/network/
     run 01-05 prediction jupyter
 
-
-# Results
-<div align=center><img src="https://github.com/douyimin/MDA_GAN/blob/main/results/output.jpg" width="850" height="550" alt="Results"/><br/></div>
-
 # Cite us
    
      Dou, Yimin, et al. 
