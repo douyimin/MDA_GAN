@@ -1,4 +1,4 @@
-# The complete code will be available by December 7. For now it is for inference only.
+# The complete code will be available by December 3. For now it is for inference only.
 # Introduction
 
 **MDA GAN:**
