@@ -21,7 +21,7 @@ def spectral_norm(module, mode=False):
 
 
 class Fuse_Block(nn.Module):
-    def __init__(self, in_channels, out_channels, kernel_size=3):
+    def __init__(self, in_channels, out_channels, kernel_size=1):
         super(Fuse_Block, self).__init__()
 
         self.expan_channels = out_channels * 2
@@ -30,7 +30,7 @@ class Fuse_Block(nn.Module):
             nn.Conv3d(in_channels, self.expan_channels, 1),
             nn.InstanceNorm3d(self.expan_channels),
             nn.LeakyReLU(),
-            nn.Conv3d(self.expan_channels, self.expan_channels, kernel_size, padding=1)
+            nn.Conv3d(self.expan_channels, self.expan_channels, kernel_size, padding=0)
         )
 
         self.w = nn.Sequential(
