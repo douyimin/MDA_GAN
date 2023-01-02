@@ -30,7 +30,7 @@ class Fuse_Block(nn.Module):
             nn.Conv3d(in_channels, self.expan_channels, 1),
             nn.InstanceNorm3d(self.expan_channels),
             nn.LeakyReLU(),
-            nn.Conv3d(self.expan_channels, self.expan_channels, 3, 1)
+            nn.Conv3d(self.expan_channels, self.expan_channels, 3, 1, 1)
         )
 
         self.w = nn.Sequential(
